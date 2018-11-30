@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -123,5 +124,11 @@
       }
     }
   },
-  "defaultProject": "its-website"
+  "defaultProject": "its-website",
+  "schematics": {
+    "@schematics/angular:component": {
+      "spec": false,
+      "inlineStyle": true
+    }
+  }
 }
