@@ -110,3 +110,8 @@ footer {
     height: 1px;
     background-color: #fff;
   }
+
+  /* Banner */
+ .indicators {
+   margin-right: 10px !important;
+ }
