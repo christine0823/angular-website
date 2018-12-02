@@ -61,7 +61,7 @@ footer {
 }
 
 .footer-ul li {
-  line-height: 29px;
+  line-height: 25px;
   font-size: 12px;
   margin-top: 5px;
   padding: 0;
@@ -71,7 +71,6 @@ footer {
 .footer-link {
   font-size: 12px;
   text-decoration: none;
-  font-weight: 200;
   color: #fff;
 }
 
@@ -80,7 +79,7 @@ footer {
 }
 
 .footer-link:hover {
-  color: #73b0f4;
+  color: #c13b3b;
 }
 
 
@@ -109,20 +108,19 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 20px;
+  width: 25px;
   height: 1px;
   background-color: #fff;
 }
 
   /* Banner */
   #banner{
-    width:80%;
     padding-top: 20px;
     text-align:center;
   }
   
   .single-item{
-    width:80%;
+    width:100%;
     margin:0px auto;
   }
 

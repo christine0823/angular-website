@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import * as $ from 'jquery';
 
 declare function toggleFunc():any;
@@ -8,12 +8,15 @@ declare function toggleFunc():any;
   templateUrl: './announcement.component.html',
   styles: []
 })
-export class AnnouncementComponent implements OnInit {
 
-  constructor() { }
+
+
+export class AnnouncementComponent implements OnInit{
+
+  constructor() { 
+  }
 
   ngOnInit() {
     toggleFunc();
   }
-
 }

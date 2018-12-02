@@ -6,6 +6,7 @@ function toggleIcon(e) {
 }
 
 function toggleFunc(){
+    // alert("click1");
     $('.panel-group').on('hidden.bs.collapse', toggleIcon);
     $('.panel-group').on('shown.bs.collapse', toggleIcon);
 }
