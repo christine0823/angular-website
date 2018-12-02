@@ -8,6 +8,7 @@ import { AnnouncementComponent } from './announcement/announcement.component';
 import { DocumentComponent } from './document/document.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import * as $ from "jquery";
 
 @NgModule({
   declarations: [

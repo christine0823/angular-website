@@ -3,6 +3,11 @@
 body{
     font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
 }
+
+.content{
+  min-height:300px;
+}
+
 /* Header */
 #logo{ 
     font-size:20px;
@@ -18,7 +23,7 @@ body{
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 17px;
 }
 
@@ -38,80 +43,181 @@ body{
 footer {
     background-color:  gray;
     color: #ced4da;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+}
   
-  .footerleft {
-    margin-top: 20px;
-    padding: 0 36px;
-  }
-  
-  .paddingtop-bottom {
-    margin-top: 20px;
-  }
-  
-  .footer-ul {
-    list-style-type: none;
-    padding-left: 0px;
-    margin-left: 2px;
-  }
-  
-  .footer-ul li {
-    line-height: 29px;
-    font-size: 12px;
-    margin-top: 5px;
-    padding: 0;
+.footerleft {
+  margin-top: 20px;
+  padding: 0 36px;
+}
 
-  }
-  
-  .footer-link {
-    font-size: 12px;
-    text-decoration: none;
-    font-weight: 200;
-    color: #fff;
-  }
-  
-  .footer-ul i {
-    margin-right: 10px;
-  }
+.paddingtop-bottom {
+  margin-top: 20px;
+}
 
-  .footer-link:hover {
-    color: #73b0f4;
-  }
-  
-  
-  .copyright {
-    min-height: 40px;
-    background-color: #666666;
-  }
-  
-  .copyright p {
-    text-align: center;
-    color: white;
-    padding: 10px 0;
-    margin-bottom: 0px;
-  }
-  
-  .heading7 {
-    position: relative;
-    margin: 0 0 10px;
-    color: #fff;
-    font-weight: 900;
-    font-size: 14px;
-  }
-  
-  .heading7:before {
-    content: " ";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 20px;
-    height: 1px;
-    background-color: #fff;
-  }
+.footer-ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 2px;
+}
+
+.footer-ul li {
+  line-height: 29px;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 0;
+
+}
+
+.footer-link {
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 200;
+  color: #fff;
+}
+
+.footer-ul i {
+  margin-right: 10px;
+}
+
+.footer-link:hover {
+  color: #73b0f4;
+}
+
+
+.copyright {
+  min-height: 40px;
+  background-color: #666666;
+}
+
+.copyright p {
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 0px;
+}
+
+.heading7 {
+  position: relative;
+  margin: 0 0 10px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.heading7:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 1px;
+  background-color: #fff;
+}
 
   /* Banner */
- .indicators {
-   margin-right: 10px !important;
+  #banner{
+    width:80%;
+    padding-top: 20px;
+    text-align:center;
+  }
+  
+  .single-item{
+    width:80%;
+    margin:0px auto;
+  }
+
+  .slick-slide{
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+  }
+  
+  .slick-slide img{
+    width:100%;
+    min-width: 500px;
+    height:300px;
+    border: 2px solid #fff;
+  }
+  
+  .slick-prev:before, .slick-next:before{
+    font-size: 80px;
+    line-height: 0.5;
+    opacity: .75;
+    color: gray;
+  }
+  
+  .slick-prev {
+    left: -100px;
+  }
+  
+  .slick-next {
+    right: -50px;
+  }
+  
+ /* Home */
+ .list-title{
+   font-size: 20px !important;
+   color: #444444;
+   font-weight: bold;
  }
+.list-icon{
+  color: #c13b3b;
+}
+
+.fa-ul{
+  margin-top: 10px;
+  margin-left:10px;
+  font-size: 18px;
+}
+
+.fa-ul>li{
+  padding-bottom: 20px;
+}
+
+.fa-minus{
+  color: #c13b3b;
+  font-size: 16px;
+}
+
+.more-button{
+  color: #c13b3b;
+  font-weight: bold;
+  float: right;
+  text-decoration: underline;
+  position: relative;
+  right:50px;
+}
+
+/* Announcement */
+.panel-group .panel {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #212121;
+  background-color: #FAFAFA;
+  border-color: #EEEEEE;
+}
+
+.panel-title {
+  font-size: 14px;
+}
+
+.panel-title > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.more-less {
+  float: right;
+  color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #EEEEEE;
+}

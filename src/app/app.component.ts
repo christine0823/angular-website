@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-let $ : any;
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

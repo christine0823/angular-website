@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
+
+declare function toggleFunc():any;
 
 @Component({
   selector: 'app-announcement',
@@ -10,6 +13,7 @@ export class AnnouncementComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    toggleFunc();
   }
 
 }
