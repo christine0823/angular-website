@@ -30,8 +30,16 @@
                                 </div>
                                 <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                     <div class="panel-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
+                                        <!-- <div class="embed-responsive embed-responsive-16by9">
                                             <iframe class="embed-responsive-item" src="../../assets/introduction.pdf" allowfullscreen></iframe>
+                                          </div> -->
+
+                                          <div class="pdf-container"> 
+                                            <pdf-viewer src="../../assets/introduction.pdf"
+                                                        [original-size]="false"
+                                                        [render-text]="false"
+                                                        style="display: block"
+                                            ></pdf-viewer>
                                           </div>
                                     </div>
                                 </div>

@@ -219,3 +219,9 @@ footer {
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #EEEEEE;
 }
+
+.pdf-container{
+  overflow: auto;
+  width:100%;
+  height:300px;
+}
